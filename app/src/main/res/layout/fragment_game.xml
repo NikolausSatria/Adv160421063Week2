@@ -37,6 +37,7 @@
 
         <EditText
             android:id="@+id/textAnswer"
+            style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
             android:layout_width="226dp"
             android:layout_height="51dp"
             android:layout_marginStart="101dp"
@@ -45,6 +46,7 @@
             android:ems="10"
             android:hint="Your Answer"
             android:inputType="text"
+            android:textAlignment="center"
             app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.562"
